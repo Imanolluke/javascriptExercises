@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<body>   
+<head>
+<script type="text/javascript">
+window.onload = iniciar;
+ function iniciar(){
+     for(let i =1; i<=3;i++){
+         let button1 = document.createElement("input");
+        button1.value = i;
+        button1.type = "button";
+        button1.addEventListener("click", mostrar);
+        document.body.appendChilf(button1);
+     }
+ }
+
+ function mostrar(){
+     console.log("has pulsado es siguiente boton" + button1.value);
+
+ }
+
+
+</script>
+</head>
+</body>
+</html> 
